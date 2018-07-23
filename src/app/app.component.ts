@@ -75,8 +75,8 @@ export class AppComponent implements OnInit, AfterViewInit {
           this.dataSource.data = this.tableData;
           this.tableData = [];
           this.changeRef.detectChanges();
-          console.log('form values', this.dateStart.getValue(), this.base.getValue());
-          console.log('table data', data, this.dataSource.data);
+          /* console.log('form values', this.dateStart.getValue(), this.base.getValue());
+          console.log('table data', data, this.dataSource.data); */
       });
   }
 
